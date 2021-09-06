@@ -21,7 +21,7 @@ def binary_search(iterable: list[T], search_key: T) -> int:
 
 	if search_key < iterable[mid]:
 		return binary_search(iterable[:mid], search_key)
-	else:
+	elif search_key > iterable[mid]:
 		return binary_search(iterable[mid+1:], search_key)
-
-	return False
+	else:
+		return False
