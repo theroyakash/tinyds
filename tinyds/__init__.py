@@ -1,1 +1,1 @@
-from .search import binary_search
+from .bimap import BiMap
