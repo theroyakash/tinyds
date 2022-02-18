@@ -85,6 +85,9 @@ if __name__ == '__main__':
 	console.print(stk)
 
 	stk.push(2000)
+	stk.push(3000)
+	stk.push(4000)
+	stk.push(5000)
 	console.print(stk)
 
 	for _ in range(5):
