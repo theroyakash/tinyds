@@ -4,20 +4,15 @@
   <br>
 </h1>
 
-<h4 align="center">Python Package for your SDE interviews.</h4>
+<h4 align="center">C++ DSA for your SDE interviews.</h4>
 
 <p align="center">
   <a href="https://algorithms.theroyakash.com/">Getting started</a> •
   <a href="https://github.com/theroyakash/tinyds/blob/main/LICENSE">License</a>
 </p>
 
-[![TinyDS Tests](https://github.com/theroyakash/tinyds/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/theroyakash/tinyds/actions/workflows/tests.yml)
-[![Python3](https://img.shields.io/badge/python-3.9-blue.svg)](https://github.com/theroyakash/reddit-api)
-[![GitHub license](https://img.shields.io/badge/LICENSE-MIT-orange)](https://github.com/theroyakash/AKDSFramework/blob/master/LICENSE)
-[![Discord Server](https://img.shields.io/badge/Support-theroyakash-red)](https://www.theroyakash.com/contact)
-
 # What is it?
-Small and simple pythonic implementations for most of your coding problems that are asked in SDE I or II interviews at FAANGs that you will be able to implement on the spot if asked. You can also install the package and start using it in Leetcode problems. Think of it as a tiny implementation of the `stl` library from C++. If you want to contribute please open a pull request.
+Small and simple C++ implementations for most of your coding problems that are asked in SDE I or II interviews at FAANGs that you will be able to implement on the spot if asked.
 
 # What it supports?
 ## Data Structures
