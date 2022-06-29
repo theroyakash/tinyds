@@ -16,30 +16,41 @@ struct TreeNode {
 };
 
 
-void inOrderTraversal(TreeNode *nodePointer){
+void inOrderTraversal(TreeNode *node){
 
-    if (nodePointer != nullptr) {
-        inOrderTraversal(nodePointer->left);
-        printf("%d ", nodePointer->data);
-        inOrderTraversal(nodePointer->right);
+    if (node != nullptr) {
+        inOrderTraversal(node->left);
+        printf("%d ", node->data);
+        inOrderTraversal(node->right);
     }
 }
 
-void preOrderTraversal(TreeNode *nodePointer){
+void preOrderTraversal(TreeNode *node){
 
-    if (nodePointer != nullptr) {
-        printf("%d ", nodePointer->data);
-        preOrderTraversal(nodePointer->left);
-        preOrderTraversal(nodePointer->right);
+    if (node != nullptr) {
+        printf("%d ", node->data);
+        preOrderTraversal(node->left);
+        preOrderTraversal(node->right);
     }
 }
 
-void postOrderTraversal(TreeNode *nodePointer){
+void postOrderTraversal(TreeNode *node){
 
-    if (nodePointer != nullptr) {
-        postOrderTraversal(nodePointer->left);
-        postOrderTraversal(nodePointer->right);
+    if (node != nullptr) {
+        postOrderTraversal(node->left);
+        postOrderTraversal(node->right);
 
-        printf("%d ", nodePointer->data);
+        printf("%d ", node->data);
     }
+}
+
+
+int main() {
+    TreeNode* node = new TreeNode(1200);
+    node->left = new TreeNode(23);
+    node->right = new TreeNode(314);
+
+    node->right->right = new TreeNode(14124);
+
+    inOrderTraversal(node);
 }
